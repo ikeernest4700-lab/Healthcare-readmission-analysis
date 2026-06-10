@@ -135,7 +135,7 @@ end as readmission_range
 - Develop predictive readmission risk scoring models  
 - Expand outpatient care access to reduce unnecessary admissions  
 
----
+
 
 ```sql
 lag(stop) over (partition by patient order by start, stop) as previous_encounter
