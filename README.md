@@ -137,14 +137,5 @@ end as readmission_range
 
 ---
 
-## 🚀 Project Impact
-
-This analysis demonstrates how healthcare encounter data can be transformed into actionable insights that support:
-
-- Improved patient outcomes  
-- Reduced preventable readmissions  
-- Better hospital resource allocation  
-- Data-driven clinical decision-making  
-
 ```sql
 lag(stop) over (partition by patient order by start, stop) as previous_encounter
