@@ -66,16 +66,17 @@ end as readmission_in_30days ```
 ----
 ```
 ---
-4. Binary readmission flag (for Power BI measures)
-case 
-  ```
+2. Binary readmission flag (for Power BI measures)
+ 
+  ``` sql
+case
  when since_last_admission <= 30 then 1 
     else 0 
 end as readmitted
 ```
 ---
-5. Readmission time segmentation (clinical interpretation)
-```
+3. Readmission time segmentation (clinical interpretation)
+``` sql
 case
     when since_last_admission <= 7 then '0-7 days'
     when since_last_admission <= 15 then '8-15 days'
