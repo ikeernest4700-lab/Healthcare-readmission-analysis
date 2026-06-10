@@ -126,16 +126,78 @@ end as readmission_range
 ![Readmission Dashboard](image/patient-behaviour.png)
 
 ---
-
 ## 📌 Recommendations
 
-- Strengthen post-discharge follow-up within the first 7 days  
+- Strengthen post-discharge follow-up within the first 7 days to reduce early readmissions  
 - Implement chronic disease management programs for high-risk patients  
 - Improve care coordination for Medicare and uninsured populations  
-- Develop predictive readmission risk scoring models  
-- Expand outpatient care access to reduce unnecessary admissions  
+- Expand preventive and outpatient care pathways to reduce avoidable hospital visits  
+- Develop predictive models to identify patients at high risk of 30-day readmission  
 
+---
 
+## 📊 Project Impact
 
-```sql
-lag(stop) over (partition by patient order by start, stop) as previous_encounter
+This project demonstrates how healthcare data can be transformed into actionable insights that support:
+
+- Reduction in preventable hospital readmissions  
+- Improved patient care coordination and outcomes  
+- Better allocation of healthcare resources  
+- Data-driven decision-making in clinical operations  
+- Strong foundation for predictive healthcare analytics  
+
+---
+
+## 🚀 Summary
+
+This project showcases an end-to-end healthcare analytics workflow using SQL and Power BI, covering:
+
+- Data extraction and transformation using SQL window functions  
+- Readmission analysis using time-based patient tracking  
+- KPI development for 30-day readmission monitoring  
+- Interactive dashboards for healthcare decision-making  
+
+It highlights the ability to translate raw healthcare data into meaningful business and clinical insights.
+
+---
+
+## 📚 Next Step: Python Learning Path
+
+To further strengthen my analytics and data engineering skill set, the next focus areas include:
+
+- Python for data analysis (Pandas, NumPy)  
+- Data visualization (Matplotlib, Seaborn)  
+- Predictive modeling (Scikit-learn)  
+- Healthcare risk scoring models  
+- API and data pipeline development  
+
+This will enable a transition from descriptive analytics to **predictive healthcare analytics**.
+
+---
+
+## 🤝 Open to Opportunities
+
+I am actively seeking opportunities in:
+
+- Data Analyst roles (Entry-Level / Graduate / Junior)  
+- Healthcare Analytics roles  
+- Business Intelligence (BI) Analyst positions  
+- Data Engineering Internships  
+- Graduate Trainee Programs  
+
+I am open to remote, hybrid, and on-site opportunities where I can contribute to data-driven decision-making and continue developing technical expertise.
+
+---
+
+## 📬 Contact
+
+**Ike Ernest**  
+Data Analyst | SQL | Power BI | Healthcare Analytics  
+
+- GitHub: [github.com/ikeernest4700-lab]  
+- LinkedIn: [https://www.linkedin.com/in/emeka-ike-108748198]  
+- Email: [ikeernest4700@gmail.com]  
+
+---
+
+⭐ If you found this project useful, feel free to connect or reach out for collaboration opportunities.
