@@ -56,6 +56,7 @@ The dataset spans **2011–2022** and includes:
 ## 💻 SQL Data Processing (Key Logic)
 
 The dataset was transformed using advanced SQL techniques including window functions, time calculations, and feature engineering.
+
 [View Full SQL Code](SQL/encounters.sql)
 ### 1. Track previous encounter per patient (sequencing logic)
 ```sql
