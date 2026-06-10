@@ -8,6 +8,8 @@ Healthcare analytics project using SQL and Power BI to analyze patient encounter
 End-to-end healthcare analytics project analyzing patient encounters and 30-day readmissions in Massachusetts (2011–2022).
 
 ---
+## Data Source
+This project uses a public dataset from Maven Analytics as part of a data analytics challenge.
 
 [Data soure](https://www.mavenanalytics.io/challenges/maven-hospital-challenge)
 
