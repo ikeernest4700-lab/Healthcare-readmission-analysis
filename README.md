@@ -8,7 +8,7 @@ Healthcare analytics project using SQL and Power BI to analyze patient encounter
 End-to-end healthcare analytics project analyzing patient encounters and 30-day readmissions in Massachusetts (2011–2022).
 
 ---
-![Live Dashboard link](https://drive.google.com/file/d/1g5bhZuPTeE-DM-8AuOHiTDGI3pso2Lll/view?usp=drive_link)
+[Live Dashboard link](https://drive.google.com/file/d/1g5bhZuPTeE-DM-8AuOHiTDGI3pso2Lll/view?usp=drive_link)
 ## 📌 Business Problem
 
 Healthcare systems face increasing pressure from high 30-day readmission rates, which result in:
@@ -49,7 +49,7 @@ The dataset spans **2011–2022** and includes:
 ## 💻 SQL Data Processing (Key Logic)
 
 The dataset was transformed using advanced SQL techniques including window functions, time calculations, and feature engineering.
-![View Full SQL code here](SQL/encounters.sql)
+[View Full SQL Code](SQL/encounters.sql)
 ### 1. Track previous encounter per patient (sequencing logic)
 ```sql
 lag(stop) over (partition by patient order by start, stop) 
@@ -113,7 +113,7 @@ end as readmission_range
 - Analyzes encounter volume, duration, payer distribution, and encounter types  
 - Highlights outpatient-heavy utilization patterns  
 
-![Encounters Dashboard](images/patient-encounter.png)
+![Encounters Dashboard](image/patient-encounter.png)
 
 ---
 
@@ -122,7 +122,7 @@ end as readmission_range
 - Breaks down readmission timing buckets (0–7, 8–15, 16–30, 31–90 days)  
 - Identifies key clinical and demographic drivers  
 
-![Readmission Dashboard](images/patient-behaviour.png)
+![Readmission Dashboard](image/patient-behaviour.png)
 
 ---
 
